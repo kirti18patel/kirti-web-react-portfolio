@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/kirti-portfolio/static/css/main.2c1b5c16.chunk.css",
+    "main.js": "/kirti-portfolio/static/js/main.3ae6483b.chunk.js",
+    "main.js.map": "/kirti-portfolio/static/js/main.3ae6483b.chunk.js.map",
+    "runtime-main.js": "/kirti-portfolio/static/js/runtime-main.433ceed5.js",
+    "runtime-main.js.map": "/kirti-portfolio/static/js/runtime-main.433ceed5.js.map",
+    "static/js/2.76f877a8.chunk.js": "/kirti-portfolio/static/js/2.76f877a8.chunk.js",
+    "static/js/2.76f877a8.chunk.js.map": "/kirti-portfolio/static/js/2.76f877a8.chunk.js.map",
+    "index.html": "/kirti-portfolio/index.html",
+    "static/css/main.2c1b5c16.chunk.css.map": "/kirti-portfolio/static/css/main.2c1b5c16.chunk.css.map",
+    "static/js/2.76f877a8.chunk.js.LICENSE.txt": "/kirti-portfolio/static/js/2.76f877a8.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/kirti-portfolio/static/media/1.ca3a7668.png",
+    "static/media/2.png": "/kirti-portfolio/static/media/2.ac5564bf.png",
+    "static/media/3.png": "/kirti-portfolio/static/media/3.dd58b6d6.png",
+    "static/media/4.png": "/kirti-portfolio/static/media/4.1191256e.png",
+    "static/media/5.png": "/kirti-portfolio/static/media/5.365d6e45.png",
+    "static/media/6.png": "/kirti-portfolio/static/media/6.ac5564bf.png",
+    "static/media/agile.png": "/kirti-portfolio/static/media/agile.b3c32aef.png",
+    "static/media/api.png": "/kirti-portfolio/static/media/api.eb5418c0.png",
+    "static/media/creative.png": "/kirti-portfolio/static/media/creative.71df2cbc.png",
+    "static/media/git.png": "/kirti-portfolio/static/media/git.7546cf0c.png",
+    "static/media/mongodb.png": "/kirti-portfolio/static/media/mongodb.6dc71ba0.png",
+    "static/media/mysql.png": "/kirti-portfolio/static/media/mysql.28931c9b.png",
+    "static/media/nodejs.png": "/kirti-portfolio/static/media/nodejs.07d152a8.png",
+    "static/media/perce-rock.e98712b0.jpg": "/kirti-portfolio/static/media/perce-rock.e98712b0.jpg",
+    "static/media/resume.14525041.docx": "/kirti-portfolio/static/media/resume.14525041.docx",
+    "static/media/smart.png": "/kirti-portfolio/static/media/smart.b528ad10.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.433ceed5.js",
+    "static/js/2.76f877a8.chunk.js",
+    "static/css/main.2c1b5c16.chunk.css",
+    "static/js/main.3ae6483b.chunk.js"
+  ]
+}
