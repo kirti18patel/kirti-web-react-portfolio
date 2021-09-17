@@ -553,12 +553,12 @@ footer{
     width: 100%;
     font-size: 0.8rem;
     background-color: transparent;
-    border-bottom: none;
   }
   .menu ul li{
     padding: 0px 5px;
     border-left: 3px solid var(--secondary-bg);
     border-right: none;
+    border-bottom: none;
   }
   .menu ul li:nth-child(1){
     border-left: none;
