@@ -4,6 +4,13 @@ import Modal from '../Modal';
 function Work() {
   const [projects] = useState([
     {
+      name: 'Book Store',
+      github:"https://github.com/kirti18patel/book-store",
+      deployed: "https://kirti-book-search-engine.herokuapp.com/",
+      description:
+        'Book Search Engine web application allows avid readers to search books available in order to keep track of their favorite books and make a list of books that need to be purchased. The reader can also delete the book from the saved book once purchased or read.'
+    },
+    {
       name: 'Waste Management',
       github:"https://github.com/Group05-Project02/waste-management",
       deployed: "https://waste-management-project2.herokuapp.com/",
@@ -37,13 +44,6 @@ function Work() {
       deployed: "https://github.com/kirti18patel/social-network-api",
       description:
         'A social network api backend application allows the user to store, access, update and remove their thoughts and reaction on the thoughts. They can also connect to their friends which already exist in NoSQL database.'
-    },
-    {
-      name: 'Workday Scheduler',
-      github:"https://github.com/kirti18patel/workday-scheduler",
-      deployed: "https://kirti18patel.github.io/workday-scheduler/",
-      description:
-        'This web app provide a handy way to organise your day.'
     }
   ]);
 
