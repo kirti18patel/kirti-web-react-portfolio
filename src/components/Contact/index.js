@@ -16,17 +16,17 @@ function Contact() {
                     </div>
                 </div>
                 <div className="box">
-                    <div className="icon flex-around-center"><i className="fa fa-phone"></i></div>
-                    <div className="text">
-                        <h3>Phone</h3>
-                        <p>+1 5145748186</p>
-                    </div>
-                </div>
-                <div className="box">
                     <div className="icon flex-around-center"><i className="fa fa-envelope"></i></div>
                     <div className="text">
                         <h3>Email</h3>
                         <a href="mailto:kirti18patel@yahoo.com" className="decoration-none-white">kirti18patel@yahoo.com</a>
+                    </div>
+                </div>
+                <div className="box">
+                    <div className="icon flex-around-center"><i className="fa fa-linkedin"></i></div>
+                    <div className="text">
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/kirtipatel18/" target="_blank" rel="noreferrer" className="decoration-none-white">https://www.linkedin.com/in/kirtipatel18/</a>
                     </div>
                 </div>
             </div>

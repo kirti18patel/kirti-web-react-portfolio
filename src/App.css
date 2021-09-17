@@ -16,7 +16,7 @@ body{
   color: white;
   font-family: 'Open Sans', sans-serif;
   background-color: var(--bgcolor);
-  
+  overflow:hidden;
   text-shadow: 2px 3px 5px black;
 }
 
@@ -85,9 +85,13 @@ nav{
   color: var(--logo-color);
 }
 
+.menu a:active{
+  color: white;
+}
+
 section{
   width: 88vw;
-  height: 100vh;
+  min-height: 100vh;
   padding: 5% 10%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -369,7 +373,7 @@ footer{
   width: 100%;
   height: 10vh;
   color: white;
-  bottom: 0px;
+  bottom: 0%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -754,11 +758,12 @@ footer{
   /* project section */
 .project-card{
   width: 100%;
+  padding: 5px;
 }
 .project{
   margin: 10px;
-  width: 90%;
-  height: 170px;
+  width: 43%;
+  height: 130px;
 }
 .project img:hover{
   transform: scale(1.1);

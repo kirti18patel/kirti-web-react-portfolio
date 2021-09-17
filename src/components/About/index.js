@@ -20,9 +20,9 @@ function About() {
         <h3>Lets know a bit more about me, </h3>
       </div>
       <div className="about-description">
-        <p>I am a passionate full stack developer, located in Canada. I have a serious passion in web development and creating intuitive, dynamic user experiences. I love working with React and other frameworks. I am confident using the MERN Full-Stack and pursue good experience and knowledge in web technologies.</p>
-        <p>Effective at combining creativity and problem solving to develop user-friendly applications. Strengths include creativity, teamwork, and trustworthiness. Well-organised person, problem solver, independent with high attention to detail and life-long dedication to learning.</p>
-        <p>Love to do painting and write songs in my leisure time. I admire exploring beauty of nature, preferably hiking, for my vacation. Interested in the entire web spectrum and working on ambitious projects with positive people.</p>
+        <p>I am a passionate full-stack developer, located in Canada. I have a serious passion for web development and creating intuitive, dynamic user experiences. I love working with React and other frameworks. I am confident using the MERN Full-Stack and pursue good experience and knowledge in web technologies.</p>
+        <p>Effective at combining creativity and problem solving to develop user-friendly applications. Strengths include creativity, teamwork, and trustworthiness. Well-organized person, problem solver, independent with high attention to detail and life-long dedication to learning.</p>
+        <p>Love to do painting and write songs in my leisure time. I admire exploring the beauty of nature, preferably hiking, for my vacation. Interested in the entire web spectrum and working on ambitious projects with positive people.</p>
       </div>
       <div className="slogan">
         <h3>Stay bold <span>&</span></h3>

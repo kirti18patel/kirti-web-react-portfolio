@@ -55,7 +55,6 @@ function Work() {
   }
 
   const closeModal = (event) => {
-    console.log(event.target)
     setIsModalOpen(!isModalOpen);
   }
 
@@ -74,7 +73,7 @@ function Work() {
             className="img-thumbnail mx-1"
             key={i}
           />
-          <div className="overlay flex-center"onClick={() => toggleModal(project, i)}>View Project</div>
+          <div className="overlay flex-center"onClick={() => toggleModal(project, i)}>{project.name}</div>
           </div>
           </>
         ))}

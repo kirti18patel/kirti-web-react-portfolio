@@ -43,7 +43,7 @@ function App() {
     </div>
     <Nav currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}/>
     {renderCategory(currentCategory)}
-    {currentCategory==="Work"?<></>:<Footer />}
+    <Footer />
     </>
   );
 }
