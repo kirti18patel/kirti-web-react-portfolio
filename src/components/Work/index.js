@@ -4,11 +4,11 @@ import Modal from '../Modal';
 function Work() {
   const [projects] = useState([
     {
-      name: 'Book Store',
-      github:"https://github.com/kirti18patel/book-store",
-      deployed: "https://kirti-book-search-engine.herokuapp.com/",
+      name: 'Crazy Tetromino',
+      github:"https://github.com/kirti18patel/crazy-tetris",
+      deployed: "https://crazy-tetrominos.herokuapp.com/",
       description:
-        'Book Search Engine web application allows avid readers to search books available in order to keep track of their favorite books and make a list of books that need to be purchased. The reader can also delete the book from the saved book once purchased or read.'
+        'A crazy tetrominos is a very catchy and entertaining game where player can play game by logging in as well. Player gets awarded 40pts for destroying each line and its level will be up by 1 after reaching every 200pts.'
     },
     {
       name: 'Waste Management',
@@ -18,18 +18,18 @@ function Work() {
         'A product waste managing web application which allows business owners to manage their kitchen waste in order to lower their overhead costs and also decrease their carbon footprint.'
     },
     {
+      name: 'Book Store',
+      github:"https://github.com/kirti18patel/book-store",
+      deployed: "https://kirti-book-search-engine.herokuapp.com/",
+      description:
+        'Book Search Engine web application allows avid readers to search books available in order to keep track of their favorite books and make a list of books that need to be purchased. The reader can also delete the book from the saved book once purchased or read.'
+    },
+    {
       name: 'Tech Blog',
       github:"https://github.com/kirti18patel/tech-blog",
       deployed: "https://salty-castle-76662.herokuapp.com/",
       description:
         'A tech blog web application which allows developers to publish their blog posts and comment on other developers’ posts as well.'
-    },
-    {
-      name: 'COVIINFO',
-      github:"https://github.com/Group6-UoT/uot-project1-group6",
-      deployed: "https://group6-uot.github.io/uot-project1-group6/",
-      description:
-        'A coviinfo web app is a one stop solution to get information and news to Covid-19'
     },
     {
       name: 'Note Taker',
