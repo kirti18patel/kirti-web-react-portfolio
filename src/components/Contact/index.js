@@ -6,7 +6,7 @@ function Contact() {
   const handleFormSubmit = (event) => {
     event.preventDefault();
     if(formState.Name !== "" || formState.Email !== "", formState.Message !== ""){
-      fetch("https://formsubmit.co/ajax/7a0dd0a79d72b87ef85cd036f659ebd1", {
+      fetch("https://formsubmit.co/ajax/kirti18patel@yahoo.com", {
       method: "POST",
       headers: { 
           'Content-Type': 'application/json',
@@ -63,7 +63,7 @@ function Contact() {
                 </div>
             </div>
           <div className="contact-form">
-            <form action="https://formsubmit.co/7a0dd0a79d72b87ef85cd036f659ebd1" method="POST" onSubmit={handleFormSubmit}>
+            <form action="https://formsubmit.co/kirti18patel@yahoo.com" method="POST" onSubmit={handleFormSubmit}>
               <input type="text" name="_honey" style={{"display": "none"}}></input>              
               <input type="hidden" name="_captcha" value="false"></input>
               <input type="hidden" name="_subject" value="Submission from portfolio!"></input>
