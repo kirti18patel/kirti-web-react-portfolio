@@ -64,14 +64,10 @@ function Contact() {
             </div>
           <div className="contact-form">
             <form action="https://formsubmit.co/7a0dd0a79d72b87ef85cd036f659ebd1" method="POST" onSubmit={handleFormSubmit}>
-              
-            <input type="hidden" name="_subject" value="New submission!"></input>
-
-
-<input type="hidden" name="_template" value="table"></input>
-<input type="text" name="_honey" style={{"display": "none"}}></input>              
+              <input type="text" name="_honey" style={{"display": "none"}}></input>              
               <input type="hidden" name="_captcha" value="false"></input>
-              {/* <input type="hidden" name="_subject" value="Submission from portfolio!"></input> */}
+              <input type="hidden" name="_subject" value="Submission from portfolio!"></input>
+              <input type="hidden" name="_template" value="table"></input>
 
               <h2>Send Message</h2>
                 <input placeholder="Name" 
