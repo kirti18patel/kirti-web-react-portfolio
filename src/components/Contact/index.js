@@ -3,14 +3,6 @@ function Contact() {
   
   const [formState, setFormState] = useState({ Name: '', Email: '', Message: '' });
 
-  const autoResponseMessage = 
-  `Hello,
-
-  Thank you for reaching out to me. I received your message which you send from my portfolio. I will get back to you soon.
-  
-  Thanks and Regards,
-  Kirti Patel`;
-
   const handleFormSubmit = (event) => {
     event.preventDefault();
     if(formState.Name !== "" || formState.Email !== "", formState.Message !== ""){
@@ -27,16 +19,12 @@ function Contact() {
         })
       })
       .then(response => response.json())
-      .then(data => console.log(data))
       .catch(error => console.log(error));
     }
-
     setFormState({ Name: '', Email: '', Message: '' });
-    console.log("ho gys");
   }
 
   const handleChange = (event) => {
-        
     const { name, value } = event.target;
     setFormState({
       ...formState,
@@ -79,7 +67,6 @@ function Contact() {
               <input type="text" name="_honey" style={{"display": "none"}}></input>              
               <input type="hidden" name="_captcha" value="false"></input>
               <input type="hidden" name="_subject" value="Submission from portfolio!"></input>
-              <input type="hidden" name="_autoresponse" value={autoResponseMessage}></input>
               <input type="hidden" name="_template" value="table"></input>
 
               <h2>Send Message</h2>
