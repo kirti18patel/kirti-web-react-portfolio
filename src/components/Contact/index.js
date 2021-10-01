@@ -1,5 +1,49 @@
-import React from 'react';
+import React, {useState} from 'react';
 function Contact() {
+  
+  const [formState, setFormState] = useState({ Name: '', Email: '', Message: '' });
+
+  const autoResponseMessage = 
+  `Hello,
+
+  Thank you for reaching out to me. I received your message which you send from my portfolio. I will get back to you soon.
+  
+  Thanks and Regards,
+  Kirti Patel`;
+
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+    if(formState.Name !== "" || formState.Email !== "", formState.Message !== ""){
+      fetch("https://formsubmit.co/ajax/7a0dd0a79d72b87ef85cd036f659ebd1", {
+      method: "POST",
+      headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+      body: JSON.stringify({
+          Name: formState.Name,
+          Email: formState.Email,
+          Message: formState.Message
+        })
+      })
+      .then(response => response.json())
+      .then(data => console.log(data))
+      .catch(error => console.log(error));
+    }
+
+    setFormState({ Name: '', Email: '', Message: '' });
+    console.log("ho gys");
+  }
+
+  const handleChange = (event) => {
+        
+    const { name, value } = event.target;
+    setFormState({
+      ...formState,
+      [name]: value,
+    });
+  };
+
   return (
     <section className="contact flex-center-column my-5">
       <div className="contactContent text-center">
@@ -31,12 +75,30 @@ function Contact() {
                 </div>
             </div>
           <div className="contact-form">
-            <form>
+            <form action="https://formsubmit.co/7a0dd0a79d72b87ef85cd036f659ebd1" method="POST" onSubmit={handleFormSubmit}>
+              <input type="text" name="_honey" style={{"display": "none"}}></input>              
+              <input type="hidden" name="_captcha" value="false"></input>
+              <input type="hidden" name="_subject" value="Submission from portfolio!"></input>
+              <input type="hidden" name="_autoresponse" value={autoResponseMessage}></input>
+              <input type="hidden" name="_template" value="table"></input>
+
               <h2>Send Message</h2>
-                <input placeholder="Name"></input>
-                <input placeholder="Email"></input>
-                <textarea placeholder="Type your message..."></textarea>
-                <input type="submit" name="submit" value="Send Message" id="btn"></input>
+                <input placeholder="Name" 
+                  name="Name" 
+                  value={formState.Name}
+                  required 
+                  onChange={handleChange}></input>
+                <input placeholder="Email" 
+                  name="Email" 
+                  value={formState.Email}
+                  required 
+                  onChange={handleChange}></input>
+                <textarea placeholder="Type your message..." 
+                  name="Message" 
+                  value={formState.Message}
+                  required
+                  onChange={handleChange}></textarea>
+                <input type="submit" value="Send Message" id="btn"></input>
             </form>
           </div>
       </div>
