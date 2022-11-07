@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../assets/resume.docx';
+import resume from '../../assets/resumeKirti.docx';
 function Footer() {
   return (
     <footer className="my-5">
