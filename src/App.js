@@ -32,15 +32,6 @@ function App() {
 
   return (
     <>
-    <div className="dots flex-around-center">
-      <h1>.</h1>
-      <h1>.</h1>
-      <h1>.</h1>
-      <h1>.</h1>      
-      <h1>.</h1>
-      <h1>.</h1>
-      <h1>.</h1>
-    </div>
     <Nav currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}/>
     {renderCategory(currentCategory)}
     <Footer />
